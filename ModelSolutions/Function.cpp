@@ -43,6 +43,7 @@ int main(){
 
   // By the way, there is no such thing as a vector literal, but there is something a bit like one:
   // How these really work is complicated, so do be careful. But this lets us check our const reference idea again
+  // WARNING - this code will give strange compile errors unless you compile with -std=c++11
   std::cout<<average({1, 2, 3, 3, 4, 5})<<std::endl;
 
   std::cout<<average2({1, 2, 3, 3, 4, 5})<<std::endl;
