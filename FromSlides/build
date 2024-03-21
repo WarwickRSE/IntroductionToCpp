@@ -1,0 +1,17 @@
+#!/bin/bash
+
+if [ "$#" -lt 1 ]; then
+  echo "Supply name of file to compile"
+else
+  filename="$1"
+fi
+
+#Name of compiled file -use filename
+outfile=${filename%.*}
+echo $outfile
+#Name of compiler
+cc=g++
+cflags="-g -Wall"
+
+#Actual compile line. Other flags etc can be added
+$cc $cflags $filename -o $outfile
