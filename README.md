@@ -17,4 +17,8 @@ Here you will find the following:
   * Solutions to the exercises
   * Remember these are only one way to solve the problem, not necessarily the only one
 
+# More advanced stuff
+
+If you want some more material, we have a repository at https://github.com/WarwickRSE/CPP4Researchers
+which explores more of the STL and introduces things like templating and classes.
 
